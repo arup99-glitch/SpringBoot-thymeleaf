@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+</head>
+<body>
+
+<h1>Welcome to BJIT Academy</h1>
+
+<h3>Enter candidate information</h3>
+
+<form action="receive" method="POST">
+    <p>Id</p>
+    <input type="text" name="id" />
+    <p>Name</p>
+    <input type="text" name="name" />
+    <p>Domain</p>
+    <input type="text" name="domain" />
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
